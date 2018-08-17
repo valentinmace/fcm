@@ -64,6 +64,7 @@ Get results in the ``data/corpus/formated`` folder
 Notes:
 - File to convert has to be in the ``data/corpus/raw folder``
 - This script is using the SST (SuperSenseTagger) to do the conversion, which uses gzip so be sure to install gzip before using it
+- This script is available in a jupyter notebook version (in french) for better visual understanding in the ``...notebook`` folder
 
 ## Meta
 
