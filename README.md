@@ -33,7 +33,7 @@ For both scripts, no installation is needed, you just need python 3, however mak
 
 Clone or download the repository
 
-Open a terminal in the ``fcm`` folder and execute:
+Open a terminal in the ``fcm`` (root) folder and execute:
 ```sh
 python fcm_global.py <train data> <test_data> <epochs> <learning rate> [word embeddings]
 ```
@@ -55,6 +55,15 @@ Open a terminal in the ``data/corpus/raw_to_formated_script`` folder and execute
 ```sh
 python raw_to_formated.py <file to convert>
 ```
+Example:
+```sh
+python raw_to_formated.py semeval2018_train
+```
+Get results in the ``data/corpus/formated`` folder
+
+Notes:
+- file to convert has to be in the ``data/corpus/raw folder``
+
 
 ## Meta
 
