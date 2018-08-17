@@ -62,8 +62,8 @@ python raw_to_formated.py semeval2018_train
 Get results in the ``data/corpus/formated`` folder
 
 Notes:
-- file to convert has to be in the ``data/corpus/raw folder``
-
+- File to convert has to be in the ``data/corpus/raw folder``
+- This script is using the SST (SuperSenseTagger) to do the conversion, which uses gzip so be sure to install gzip before using it
 
 ## Meta
 
