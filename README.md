@@ -1,9 +1,9 @@
 # Fcm
-> A Neural Network model for NLP (relation classification)
+>Fcm is a compositional embedding model for relation classification
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+>Fcm paper: http://www.cs.cmu.edu/~mgormley/papers/gormley+yu+dredze.emnlp.2015.pdf
+
+
 
 One to two paragraph statement about your product and what it does.
 
