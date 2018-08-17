@@ -26,7 +26,15 @@ I already provide Semeval 2010, Semeval 2018 and reAce 2005 corpus with all resu
 
 This repository is for Windows use, a linux version might come in a near future and it should be relatively easy to make it yourself
 
-For both scripts, no installation is needed, you just need python 3, however make sure to have gzip installed if you wish to use the converting script (2nd one)
+For both scripts, no installation is needed, you just need python 3 and the following packages:
+
+``numpy``
+
+``spacy``
+
+``networkx``
+
+However make sure to have gzip installed if you wish to use the converting script (2nd one)
 
 
 ## Usage main script
