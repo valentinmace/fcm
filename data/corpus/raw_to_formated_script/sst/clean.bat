@@ -1,0 +1,10 @@
+del DATA\GAZ\ADJS.GAZ
+del DATA\GAZ\ADVS.GAZ
+del DATA\GAZ\countries_and_territories.GAZ
+del DATA\GAZ\F500.GAZ
+del DATA\GAZ\NOUNS.GAZ
+del DATA\GAZ\perfirst.GAZ
+del DATA\GAZ\perlast.GAZ
+del DATA\GAZ\triggers.GAZ
+del DATA\GAZ\VERBS.GAZ
+del DATA\GAZ\world.GAZ

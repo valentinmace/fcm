@@ -1,0 +1,185 @@
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2010 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   googlenews_vectors_negative300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                           precision    recall  f1-score   support
+
+ Instrument-Agency(e2,e1)     0.9248    0.9179    0.9213       134
+   Component-Whole(e1,e2)     0.9115    0.9021    0.9067       194
+                    Other     0.8250    0.8148    0.8199       162
+      Cause-Effect(e1,e2)     0.7703    0.7600    0.7651       150
+     Message-Topic(e2,e1)     0.8313    0.8693    0.8498       153
+Entity-Destination(e2,e1)     0.8529    0.7436    0.7945        39
+  Product-Producer(e1,e2)     0.8859    0.9072    0.8964       291
+     Entity-Origin(e1,e2)     0.0000    0.0000    0.0000         1
+ Member-Collection(e1,e2)     0.8219    0.8531    0.8372       211
+     Message-Topic(e1,e2)     0.8810    0.7872    0.8315        47
+ Member-Collection(e2,e1)     0.6429    0.4091    0.5000        22
+   Component-Whole(e2,e1)     0.7391    0.7612    0.7500       134
+ Content-Container(e1,e2)     0.7778    0.6562    0.7119        32
+Entity-Destination(e1,e2)     0.8190    0.9005    0.8578       201
+     Entity-Origin(e2,e1)     0.8363    0.9000    0.8670       210
+ Content-Container(e2,e1)     0.7800    0.7647    0.7723        51
+  Product-Producer(e2,e1)     0.5545    0.5264    0.5401       454
+ Instrument-Agency(e1,e2)     0.8190    0.7963    0.8075       108
+      Cause-Effect(e2,e1)     0.7731    0.7480    0.7603       123
+
+              avg / total     0.7863    0.7895    0.7871      2717
+
+| Macro F1:    0.7468
+| Micro F1:    0.7895
+| Weighted F1: 0.7871
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2010 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   nyt_portion_gigaword_5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                           precision    recall  f1-score   support
+
+ Instrument-Agency(e2,e1)     0.9044    0.9179    0.9111       134
+   Component-Whole(e1,e2)     0.8974    0.9021    0.8997       194
+                    Other     0.8543    0.7963    0.8243       162
+      Cause-Effect(e1,e2)     0.7718    0.7667    0.7692       150
+     Message-Topic(e2,e1)     0.8199    0.8627    0.8408       153
+Entity-Destination(e2,e1)     0.8529    0.7436    0.7945        39
+  Product-Producer(e1,e2)     0.8581    0.9141    0.8852       291
+     Entity-Origin(e1,e2)     0.0000    0.0000    0.0000         1
+ Member-Collection(e1,e2)     0.8295    0.8531    0.8411       211
+     Message-Topic(e1,e2)     0.8837    0.8085    0.8444        47
+ Member-Collection(e2,e1)     0.6000    0.4091    0.4865        22
+   Component-Whole(e2,e1)     0.7615    0.7388    0.7500       134
+ Content-Container(e1,e2)     0.8462    0.6875    0.7586        32
+Entity-Destination(e1,e2)     0.8079    0.9204    0.8605       201
+     Entity-Origin(e2,e1)     0.8475    0.9000    0.8730       210
+ Content-Container(e2,e1)     0.7347    0.7059    0.7200        51
+  Product-Producer(e2,e1)     0.5688    0.5374    0.5527       454
+ Instrument-Agency(e1,e2)     0.8447    0.8056    0.8246       108
+      Cause-Effect(e2,e1)     0.7778    0.7398    0.7583       123
+
+              avg / total     0.7875    0.7909    0.7882      2717
+
+| Macro F1:    0.7471
+| Micro F1:    0.7909
+| Weighted F1: 0.7882
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2010 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim200_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                           precision    recall  f1-score   support
+
+ Instrument-Agency(e2,e1)     0.9259    0.9328    0.9294       134
+   Component-Whole(e1,e2)     0.9021    0.9021    0.9021       194
+                    Other     0.8543    0.7963    0.8243       162
+      Cause-Effect(e1,e2)     0.7815    0.7867    0.7841       150
+     Message-Topic(e2,e1)     0.8232    0.8824    0.8517       153
+Entity-Destination(e2,e1)     0.8529    0.7436    0.7945        39
+  Product-Producer(e1,e2)     0.8435    0.9072    0.8742       291
+     Entity-Origin(e1,e2)     0.0000    0.0000    0.0000         1
+ Member-Collection(e1,e2)     0.8241    0.8436    0.8337       211
+     Message-Topic(e1,e2)     0.8837    0.8085    0.8444        47
+ Member-Collection(e2,e1)     0.6429    0.4091    0.5000        22
+   Component-Whole(e2,e1)     0.7714    0.8060    0.7883       134
+ Content-Container(e1,e2)     0.8214    0.7188    0.7667        32
+Entity-Destination(e1,e2)     0.8243    0.9104    0.8652       201
+     Entity-Origin(e2,e1)     0.8265    0.8619    0.8438       210
+ Content-Container(e2,e1)     0.7755    0.7451    0.7600        51
+  Product-Producer(e2,e1)     0.5548    0.5242    0.5391       454
+ Instrument-Agency(e1,e2)     0.8039    0.7593    0.7810       108
+      Cause-Effect(e2,e1)     0.8053    0.7398    0.7712       123
+
+              avg / total     0.7858    0.7891    0.7865      2717
+
+| Macro F1:    0.7502
+| Micro F1:    0.7891
+| Weighted F1: 0.7865
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2010 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim300_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                           precision    recall  f1-score   support
+
+ Instrument-Agency(e2,e1)     0.9323    0.9254    0.9288       134
+   Component-Whole(e1,e2)     0.9119    0.9072    0.9096       194
+                    Other     0.8333    0.8025    0.8176       162
+      Cause-Effect(e1,e2)     0.7748    0.7800    0.7774       150
+     Message-Topic(e2,e1)     0.8210    0.8693    0.8444       153
+Entity-Destination(e2,e1)     0.8788    0.7436    0.8056        39
+  Product-Producer(e1,e2)     0.8413    0.9107    0.8746       291
+     Entity-Origin(e1,e2)     0.0000    0.0000    0.0000         1
+ Member-Collection(e1,e2)     0.8165    0.8436    0.8298       211
+     Message-Topic(e1,e2)     0.8605    0.7872    0.8222        47
+ Member-Collection(e2,e1)     0.6000    0.4091    0.4865        22
+   Component-Whole(e2,e1)     0.7552    0.8060    0.7798       134
+ Content-Container(e1,e2)     0.8276    0.7500    0.7869        32
+Entity-Destination(e1,e2)     0.8114    0.9204    0.8625       201
+     Entity-Origin(e2,e1)     0.8341    0.8619    0.8478       210
+ Content-Container(e2,e1)     0.7755    0.7451    0.7600        51
+  Product-Producer(e2,e1)     0.5478    0.5044    0.5252       454
+ Instrument-Agency(e1,e2)     0.8100    0.7500    0.7788       108
+      Cause-Effect(e2,e1)     0.7982    0.7398    0.7679       123
+
+              avg / total     0.7816    0.7858    0.7826      2717
+
+| Macro F1:    0.7477
+| Micro F1:    0.7858
+| Weighted F1: 0.7826
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2010 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_w2vf_dim300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                           precision    recall  f1-score   support
+
+ Instrument-Agency(e2,e1)     0.9044    0.9179    0.9111       134
+   Component-Whole(e1,e2)     0.9115    0.9021    0.9067       194
+                    Other     0.8477    0.7901    0.8179       162
+      Cause-Effect(e1,e2)     0.7891    0.7733    0.7811       150
+     Message-Topic(e2,e1)     0.8182    0.8824    0.8491       153
+Entity-Destination(e2,e1)     0.8571    0.7692    0.8108        39
+  Product-Producer(e1,e2)     0.8771    0.9072    0.8919       291
+     Entity-Origin(e1,e2)     0.0000    0.0000    0.0000         1
+ Member-Collection(e1,e2)     0.8288    0.8720    0.8499       211
+     Message-Topic(e1,e2)     0.8605    0.7872    0.8222        47
+ Member-Collection(e2,e1)     0.6667    0.4545    0.5405        22
+   Component-Whole(e2,e1)     0.7752    0.7463    0.7605       134
+ Content-Container(e1,e2)     0.8148    0.6875    0.7458        32
+Entity-Destination(e1,e2)     0.8311    0.9055    0.8667       201
+     Entity-Origin(e2,e1)     0.8423    0.8905    0.8657       210
+ Content-Container(e2,e1)     0.7647    0.7647    0.7647        51
+  Product-Producer(e2,e1)     0.5604    0.5419    0.5510       454
+ Instrument-Agency(e1,e2)     0.8208    0.8056    0.8131       108
+      Cause-Effect(e2,e1)     0.8034    0.7642    0.7833       123
+
+              avg / total     0.7922    0.7946    0.7927      2717
+
+| Macro F1:    0.7543
+| Micro F1:    0.7946
+| Weighted F1: 0.7927
+-------------------------------------------------------

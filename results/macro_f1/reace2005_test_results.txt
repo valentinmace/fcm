@@ -1,0 +1,120 @@
+
+
+ -----------------------------------------------------
+|       Results for FCM on the reace2005 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   googlenews_vectors_negative300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+             precision    recall  f1-score   support
+
+    GEN-AFF     0.8028    0.7600    0.7808        75
+    PER-SOC     0.7170    0.5507    0.6230        69
+       PHYS     0.8333    0.8879    0.8597       214
+        ART     0.7652    0.8211    0.7922       123
+ PART-WHOLE     0.8906    0.9048    0.8976        63
+    ORG-AFF     0.8701    0.8508    0.8603       181
+
+avg / total     0.8217    0.8234    0.8210       725
+
+| Macro F1:    0.8023
+| Micro F1:    0.8234
+| Weighted F1: 0.8210
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the reace2005 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   nyt_portion_gigaword_5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+             precision    recall  f1-score   support
+
+    GEN-AFF     0.7794    0.7067    0.7413        75
+    PER-SOC     0.7143    0.5072    0.5932        69
+       PHYS     0.7991    0.8551    0.8262       214
+        ART     0.7164    0.7805    0.7471       123
+ PART-WHOLE     0.7941    0.8571    0.8244        63
+    ORG-AFF     0.8701    0.8508    0.8603       181
+
+avg / total     0.7923    0.7931    0.7902       725
+
+| Macro F1:    0.7654
+| Micro F1:    0.7931
+| Weighted F1: 0.7902
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the reace2005 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim200_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+             precision    recall  f1-score   support
+
+    GEN-AFF     0.7945    0.7733    0.7838        75
+    PER-SOC     0.7037    0.5507    0.6179        69
+       PHYS     0.8405    0.9112    0.8744       214
+        ART     0.7500    0.8049    0.7765       123
+ PART-WHOLE     0.8594    0.8730    0.8661        63
+    ORG-AFF     0.8941    0.8398    0.8661       181
+
+avg / total     0.8224    0.8234    0.8212       725
+
+| Macro F1:    0.7975
+| Micro F1:    0.8234
+| Weighted F1: 0.8212
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the reace2005 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim300_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+             precision    recall  f1-score   support
+
+    GEN-AFF     0.7917    0.7600    0.7755        75
+    PER-SOC     0.7037    0.5507    0.6179        69
+       PHYS     0.8391    0.9019    0.8694       214
+        ART     0.7424    0.7967    0.7686       123
+ PART-WHOLE     0.8730    0.8730    0.8730        63
+    ORG-AFF     0.8678    0.8343    0.8507       181
+
+avg / total     0.8150    0.8166    0.8143       725
+
+| Macro F1:    0.7925
+| Micro F1:    0.8166
+| Weighted F1: 0.8143
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the reace2005 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_w2vf_dim300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+             precision    recall  f1-score   support
+
+    GEN-AFF     0.8462    0.7333    0.7857        75
+    PER-SOC     0.7736    0.5942    0.6721        69
+       PHYS     0.8326    0.9065    0.8680       214
+        ART     0.7778    0.7967    0.7871       123
+ PART-WHOLE     0.8750    0.8889    0.8819        63
+    ORG-AFF     0.8641    0.8785    0.8712       181
+
+avg / total     0.8306    0.8317    0.8291       725
+
+| Macro F1:    0.8110
+| Micro F1:    0.8317
+| Weighted F1: 0.8291
+-------------------------------------------------------

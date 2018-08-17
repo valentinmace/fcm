@@ -1,0 +1,140 @@
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2018 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   googlenews_vectors_negative300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                      precision    recall  f1-score   support
+
+       RESULT(e1,e2)     0.6667    0.5263    0.5882        19
+        USAGE(e2,e1)     0.5385    0.8596    0.6622        57
+      COMPARE(e1,e2)     0.5556    0.3125    0.4000        16
+        TOPIC(e1,e2)     0.6923    0.7500    0.7200        60
+MODEL-FEATURE(e1,e2)     0.7333    0.5000    0.5946        22
+        USAGE(e1,e2)     0.8333    0.7143    0.7692        14
+MODEL-FEATURE(e2,e1)     0.5000    1.0000    0.6667         2
+       RESULT(e2,e1)     1.0000    0.3333    0.5000         3
+   PART_WHOLE(e2,e1)     0.7064    0.6937    0.7000       111
+   PART_WHOLE(e1,e2)     0.8261    0.6032    0.6972        63
+
+         avg / total     0.6977    0.6757    0.6726       367
+
+| Macro F1:    0.6298
+| Micro F1:    0.6757
+| Weighted F1: 0.6726
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2018 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   nyt_portion_gigaword_5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                      precision    recall  f1-score   support
+
+       RESULT(e1,e2)     0.4737    0.4737    0.4737        19
+        USAGE(e2,e1)     0.4842    0.8070    0.6053        57
+      COMPARE(e1,e2)     0.3333    0.1875    0.2400        16
+        TOPIC(e1,e2)     0.6119    0.6833    0.6457        60
+MODEL-FEATURE(e1,e2)     0.6250    0.4545    0.5263        22
+        USAGE(e1,e2)     0.7500    0.6429    0.6923        14
+MODEL-FEATURE(e2,e1)     0.6667    1.0000    0.8000         2
+       RESULT(e2,e1)     0.0000    0.0000    0.0000         3
+   PART_WHOLE(e2,e1)     0.7263    0.6216    0.6699       111
+   PART_WHOLE(e1,e2)     0.8039    0.6508    0.7193        63
+
+         avg / total     0.6417    0.6267    0.6230       367
+
+| Macro F1:    0.5372
+| Micro F1:    0.6267
+| Weighted F1: 0.6230
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2018 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim200_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                      precision    recall  f1-score   support
+
+       RESULT(e1,e2)     0.5000    0.5263    0.5128        19
+        USAGE(e2,e1)     0.5495    0.8772    0.6757        57
+      COMPARE(e1,e2)     0.4286    0.1875    0.2609        16
+        TOPIC(e1,e2)     0.7000    0.7000    0.7000        60
+MODEL-FEATURE(e1,e2)     0.6000    0.5455    0.5714        22
+        USAGE(e1,e2)     0.9091    0.7143    0.8000        14
+MODEL-FEATURE(e2,e1)     0.5000    1.0000    0.6667         2
+       RESULT(e2,e1)     0.0000    0.0000    0.0000         3
+   PART_WHOLE(e2,e1)     0.7379    0.6847    0.7103       111
+   PART_WHOLE(e1,e2)     0.8235    0.6667    0.7368        63
+
+         avg / total     0.6823    0.6730    0.6670       367
+
+| Macro F1:    0.5635
+| Micro F1:    0.6730
+| Weighted F1: 0.6670
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2018 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_en_dim300_wdsize5
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                      precision    recall  f1-score   support
+
+       RESULT(e1,e2)     0.5263    0.5263    0.5263        19
+        USAGE(e2,e1)     0.5319    0.8772    0.6623        57
+      COMPARE(e1,e2)     0.5556    0.3125    0.4000        16
+        TOPIC(e1,e2)     0.7143    0.6667    0.6897        60
+MODEL-FEATURE(e1,e2)     0.6500    0.5909    0.6190        22
+        USAGE(e1,e2)     0.8333    0.7143    0.7692        14
+MODEL-FEATURE(e2,e1)     0.5000    1.0000    0.6667         2
+       RESULT(e2,e1)     0.0000    0.0000    0.0000         3
+   PART_WHOLE(e2,e1)     0.7379    0.6847    0.7103       111
+   PART_WHOLE(e1,e2)     0.8400    0.6667    0.7434        63
+
+         avg / total     0.6917    0.6757    0.6728       367
+
+| Macro F1:    0.5787
+| Micro F1:    0.6757
+| Weighted F1: 0.6728
+-------------------------------------------------------
+
+
+ -----------------------------------------------------
+|       Results for FCM on the semeval2018 corpus       |
+ -----------------------------------------------------
+| Word Embedding:   wiki_w2vf_dim300
+| Learning Rate:    0.005
+| Number of Epochs: 30
+
+                      precision    recall  f1-score   support
+
+       RESULT(e1,e2)     0.4783    0.5789    0.5238        19
+        USAGE(e2,e1)     0.5213    0.8596    0.6490        57
+      COMPARE(e1,e2)     0.2857    0.1250    0.1739        16
+        TOPIC(e1,e2)     0.6774    0.7000    0.6885        60
+MODEL-FEATURE(e1,e2)     0.6875    0.5000    0.5789        22
+        USAGE(e1,e2)     0.9000    0.6429    0.7500        14
+MODEL-FEATURE(e2,e1)     0.6667    1.0000    0.8000         2
+       RESULT(e2,e1)     0.0000    0.0000    0.0000         3
+   PART_WHOLE(e2,e1)     0.7320    0.6396    0.6827       111
+   PART_WHOLE(e1,e2)     0.7925    0.6667    0.7241        63
+
+         avg / total     0.6655    0.6512    0.6465       367
+
+| Macro F1:    0.5571
+| Micro F1:    0.6512
+| Weighted F1: 0.6465
+-------------------------------------------------------
