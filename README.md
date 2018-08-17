@@ -25,14 +25,12 @@ I have build two python scripts around it:
 
 This repository is for Windows use, a linux version might come in a near future and it should be relatively easy to make it yourself
 
-For both scripts, no installation is needed, you just need python 3, however make sure to have gzip installed if you wish to use the converting script
+For both scripts, no installation is needed, you just need python 3, however make sure to have gzip installed if you wish to use the converting script (2nd one)
 
 
 ## Usage
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Development setup
 
@@ -60,24 +58,6 @@ npm test
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Macé Valentin – [LinkedIn](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) – valentin.mace@kedgebs.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+Distributed under the MIT license. See ``LICENSE`` for more information.
