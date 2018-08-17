@@ -50,6 +50,8 @@ Notes:
 
 ## Usage conversion script
 
+To convert a corpus in Semeval 2010 format to a format usable by FCM (see ``data/corpus/raw_to_formated_script.py`` comments for more details)
+
 Clone or download the repository (if not already done)
 Open a terminal in the ``data/corpus/raw_to_formated_script`` folder and execute:
 ```sh
@@ -62,7 +64,7 @@ python raw_to_formated.py semeval2018_train
 Get results in the ``data/corpus/formated`` folder
 
 Notes:
-- File to convert has to be in the ``data/corpus/raw folder``
+- File to convert has to be in the ``data/corpus/raw folder`` and of course in a Semeval 2010 format
 - This script is using the SST (SuperSenseTagger) to do the conversion, which uses gzip so be sure to install gzip before using it
 - This script is available in a jupyter notebook version (in french) for better visual understanding in the ``...notebook`` folder
 
