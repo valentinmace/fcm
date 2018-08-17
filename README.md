@@ -4,6 +4,10 @@ and word embeddings
 
 >Fcm paper (Gormley et al. 2015): http://www.cs.cmu.edu/~mgormley/papers/gormley+yu+dredze.emnlp.2015.pdf
 
+<p align="center">
+  <img src="./img/example.png" alt="fcm neural net"
+       width="654" height="450">
+</p>
 
 The main purpose of this repository is to run the FCM for the relation classification task on several corpus, using multiples word embeddings and to compute results (such as micro-F1, macro-F1, weighted-F1 etc.)
 
