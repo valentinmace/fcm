@@ -18,7 +18,9 @@ I have build two python scripts around it:
 
 - 1- The first (main) one is used to run the FCM on a chosen corpus, tuning learning rate and number of epochs, using one or many word embeddings and finally getting results in a file
 
-- 2- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM, if you ever wish to use my work on another corpus (I already provide Semeval 2010, Semeval 2018 and reAce 2005) and that you can easily have your corpus in a Semeval 2010 format ..
+- 2- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM, if you ever wish to use my work on another corpus and if you can easily have your corpus in a Semeval 2010 format ..
+
+I already provide Semeval 2010, Semeval 2018 and reAce 2005 corpus with all results using several word embeddings (see ``results/macro_f1`` folder)
 
 ## Installation
 
@@ -28,6 +30,8 @@ For both scripts, no installation is needed, you just need python 3, however mak
 
 
 ## Usage main script
+
+Clone or download the repository
 
 Open a terminal in the ``fcm_global.py`` folder and execute:
 ```sh
