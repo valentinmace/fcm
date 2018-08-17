@@ -5,7 +5,7 @@ and word embeddings
 >Fcm paper (Gormley et al. 2015): http://www.cs.cmu.edu/~mgormley/papers/gormley+yu+dredze.emnlp.2015.pdf
 
 <p align="center">
-  <img src="./img/example.png" alt="fcm neural net"
+  <img src="./data/corpus/raw_to_formated_script/notebook/img/fcm.png"
        width="654" height="450">
 </p>
 
