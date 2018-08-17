@@ -9,8 +9,14 @@ and word embeddings
        width="400" height="260">
 </p>
 
-The main purpose of this repository is to run the FCM for the relation classification task on several corpus, using multiples word embeddings and to compute results (such as micro-F1, macro-F1, weighted-F1 etc.)
+The main purpose of this repository is to run the FCM for the relation classification task on several corpus, using multiples word embeddings and to compute results (such as micro-f1, macro-f1, weighted-f1 etc.)
 
+This repository is made of multiple pieces, the heart being the FCM C++ implementation by Mo Yu from: https://github.com/Gorov/FCM_nips_workshop
+
+I have build two python scripts around it:
+
+- The first (main) one is used to run the FCM on a chosen corpus, tuning learning rate and number of epochs, using one or many word embeddings and finally getting results in a file
+- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM
 
 ![](header.png)
 
