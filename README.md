@@ -38,7 +38,9 @@ Example:
 python fcm_global.py python fcm_global.py semeval2018_train semeval2018_test 30 0.005
 ```
 Notes:
-If you do not write a word embedding argument, it will run on every word embeddings available in the ``data/word_emb`` folder
+- If you do not write a word embedding argument, it will run on every word embeddings available in the ``data/word_emb`` folder
+- Train data and test data files have to be in the ``data/corpus/formated folder``
+- In this repo I only provide one small word embeddings (github size restriction) but you can get bigger and better performing on my drive at https://drive.google.com/drive/folders/18KrHhJcpOouFEf1Dgqw8N6Hpg6gxEZjH
 
 ## Meta
 
