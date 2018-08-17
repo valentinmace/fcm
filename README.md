@@ -1,11 +1,12 @@
 # Fcm
->Fcm is a compositional embedding model for relation classification
+>The Fcm is a compositional embedding model for relation classification combining unlexicalized linguistic context
+and word embeddings
 
->Fcm paper: http://www.cs.cmu.edu/~mgormley/papers/gormley+yu+dredze.emnlp.2015.pdf
+>Fcm paper (Gormley et al. 2015): http://www.cs.cmu.edu/~mgormley/papers/gormley+yu+dredze.emnlp.2015.pdf
 
 
+The main purpose of this repository is to run the FCM for the relation classification task on several corpus, using multiples word embeddings and to compute results (such as micro-F1, macro-F1, weighted-F1 etc.)
 
-One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
