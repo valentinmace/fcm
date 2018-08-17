@@ -1,3 +1,4 @@
+
 # Fcm
 >The Fcm is a compositional embedding model for relation classification combining unlexicalized linguistic context
 and word embeddings
@@ -15,26 +16,19 @@ This repository is made of multiple pieces, the heart being the FCM C++ implemen
 
 I have build two python scripts around it:
 
-- The first (main) one is used to run the FCM on a chosen corpus, tuning learning rate and number of epochs, using one or many word embeddings and finally getting results in a file
-- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM
+- 1- The first (main) one is used to run the FCM on a chosen corpus, tuning learning rate and number of epochs, using one or many word embeddings and finally getting results in a file
 
-![](header.png)
+- 2- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM
+
 
 ## Installation
 
-OS X & Linux:
+This repository is for Windows use, a linux version might come in a near future and it should be relatively easy to make it yourself
 
-```sh
-npm install my-crazy-module --save
-```
+For both scripts, no installation is needed, you just need python 3, however make sure to have gzip installed if you wish to use the converting script
 
-Windows:
 
-```sh
-edit autoexec.bat
-```
-
-## Usage example
+## Usage
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
