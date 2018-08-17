@@ -28,33 +28,14 @@ This repository is for Windows use, a linux version might come in a near future 
 For both scripts, no installation is needed, you just need python 3, however make sure to have gzip installed if you wish to use the converting script (2nd one)
 
 
-## Usage
+## Usage 1st script
 
-
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
+Open a terminal in the ``fcm_global.py`` folder and execute:
 ```sh
-make install
-npm test
+python fcm_global.py <train data> <test_data> <epochs> <learning rate> [word embeddings]
 ```
 
-## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 ## Meta
 
