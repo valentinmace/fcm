@@ -41,6 +41,8 @@ Example:
 ```sh
 python fcm_global.py python fcm_global.py semeval2018_train semeval2018_test 30 0.005
 ```
+Get results in the ``results/macro_f1`` folder
+
 Notes:
 - If you do not write a word embedding argument, it will run on every word embeddings available in the ``data/word_emb`` folder
 - Train data and test data files have to be in the ``data/corpus/formated folder``
