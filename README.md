@@ -91,6 +91,12 @@ Notes:
 - This script is using the SST (SuperSenseTagger) to do the conversion, which uses gzip so be sure to install gzip before using it
 - This script is available in a jupyter notebook version (in french) for better visual understanding in the ``...notebook`` folder
 
+## Notes
+
+Do not hesitate to contact me if you need some help
+
+I let the Semeval 2010 official scorer il the ``results`` folder if you ever need to use it
+
 ## Meta
 
 Macé Valentin – [LinkedIn](https://www.linkedin.com/in/valentin-mac%C3%A9-310683165/) – valentin.mace@kedgebs.com
