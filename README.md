@@ -30,6 +30,10 @@ For both scripts, no installation is needed, you just need python 3 and the foll
 
 ``numpy``
 
+``sklearn``
+
+``scipy``
+
 ``spacy``
 
 ``networkx``
@@ -47,7 +51,7 @@ python fcm_global.py <train data> <test_data> <epochs> <learning rate> [word emb
 ```
 Example:
 ```sh
-python fcm_global.py python fcm_global.py semeval2018_train semeval2018_test 30 0.005
+python fcm_global.py semeval2018_train semeval2018_test 30 0.005
 ```
 Get results in the ``results/macro_f1`` folder
 
