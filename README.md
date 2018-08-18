@@ -32,6 +32,14 @@ For both scripts, no installation is needed, you just need python 3 and the foll
 
 Sorry for not making an executable but these are useful libraries anyway :)
 
+- To use the main script, you first need to compile the FCM code, open a terminal in ``fcm`` folder and ``make``, since this repo is for Windows I recommend using [MinGW](https://sourceforge.net/projects/mingw-w64/) (don't forget to add it to your PATH environment variable)
+
+Example: make with MinGW
+
+```sh
+mingw32-make
+```
+
 However make sure to have gzip installed if you wish to use the converting script (2nd one)
 
 
@@ -39,7 +47,7 @@ However make sure to have gzip installed if you wish to use the converting scrip
 
 Clone or download the repository
 
-Open a terminal in the ``fcm`` (root) folder and execute:
+Open a terminal in the ``root`` folder and execute:
 ```sh
 python fcm_global.py <train data> <test_data> <epochs> <learning rate> [word embeddings]
 ```
