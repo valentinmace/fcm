@@ -32,10 +32,18 @@ For both scripts, no installation is needed, you just need python 3 and the foll
 
 Sorry for not making an executable but these are useful libraries anyway :)
 
+
 - To use the main script, you first need to compile the FCM code, open a terminal in ``fcm`` folder and ``make``, since this repo is for Windows I recommend using [MinGW](https://sourceforge.net/projects/mingw-w64/) (don't forget to add it to your PATH environment variable)
 
 Example: make with MinGW
 
+```sh
+mingw32-make
+```
+
+- To use the conversion script, you need to compile the SST code (which is a tagger), open a terminal in ``data/corpus/raw_to_formated_script/sst`` folder and ``make``
+
+As before I recommend using MinGW make
 ```sh
 mingw32-make
 ```
