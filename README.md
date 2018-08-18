@@ -20,15 +20,21 @@ I have build two python scripts around it:
 
 - 2- The second one is used to convert a corpus from a Semeval 2010 format to a format usable by the FCM (adding various taggs, dependency path information etc.), if you ever wish to use my work on another corpus and if you can easily have your corpus in a Semeval 2010 format ..
 
+These 2 scripts are **INDEPENDANT**, if you wish to just use one of them no need to care for installation of the other
+
 I already provide Semeval 2010, Semeval 2018 and reAce 2005 corpus with all results using several word embeddings (see ``results/macro_f1`` folder) so the conversion script may not be that useful
 
 ## Installation
 
 This repository is for Windows use, a linux version might come in a near future and it should be relatively easy to make it yourself
 
-For both scripts, no installation is needed, you just need python 3 and the following packages:
+For the main script you need python 3 and the following packages:
 
-{ ``numpy``, ``sklearn``, ``scipy``, ``spacy``, ``networkx`` }
+{ ``numpy``, ``sklearn``, ``scipy``}
+
+For the conversion script you need python 3 and the following packages:
+
+{ ``numpy``,  ``scipy``, ``spacy``, ``networkx`` }
 
 Sorry for not making an executable but these are useful libraries anyway :)
 
