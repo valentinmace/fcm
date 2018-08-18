@@ -43,8 +43,9 @@ mingw32-make
 
 - To use the conversion script, you need to compile the SST code (which is a tagger), open a terminal in ``data/corpus/raw_to_formated_script/sst`` folder and ``make`` (as before I recommend MinGW and ``mingw32-make``)
 
+For this script to run you also need gzip (precisely you need gunzip, its decompression tool) installed for command line usage, you can get it [here](http://gnuwin32.sourceforge.net/packages/gzip.htm) (don't forget to add it to your PATH environment variable), gunzip might not be recognized as a terminal command, please refer to [my Stackoverflow answer](https://stackoverflow.com/questions/51905489/using-gunzip-on-windows-in-command-line/51905574#51905574) in that case
 
-However make sure to have gzip installed if you wish to use the converting script (2nd one)
+In conclusion the installation might seem complicated but for the main script to run you just need to "make" the FCM and the few python libraries listed, for the conversion script you need to "make" the SST and get gunzip as a terminal command
 
 
 ## Usage main script
