@@ -41,12 +41,8 @@ Example: make with MinGW
 mingw32-make
 ```
 
-- To use the conversion script, you need to compile the SST code (which is a tagger), open a terminal in ``data/corpus/raw_to_formated_script/sst`` folder and ``make``
+- To use the conversion script, you need to compile the SST code (which is a tagger), open a terminal in ``data/corpus/raw_to_formated_script/sst`` folder and ``make`` (as before I recommend MinGW and ``mingw32-make``)
 
-As before I recommend using MinGW make
-```sh
-mingw32-make
-```
 
 However make sure to have gzip installed if you wish to use the converting script (2nd one)
 
