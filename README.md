@@ -28,7 +28,7 @@ This repository is for Windows use, a linux version might come in a near future 
 
 For both scripts, no installation is needed, you just need python 3 and the following packages:
 
-{``numpy``, ``sklearn``, ``scipy``, ``spacy``, ``networkx``}
+{ ``numpy``, ``sklearn``, ``scipy``, ``spacy``, ``networkx`` }
 
 Sorry for not making an executable but these are useful libraries anyway :)
 
