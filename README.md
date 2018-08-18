@@ -28,15 +28,9 @@ This repository is for Windows use, a linux version might come in a near future 
 
 For both scripts, no installation is needed, you just need python 3 and the following packages:
 
-``numpy``
+{``numpy``, ``sklearn``, ``scipy``, ``spacy``, ``networkx``}
 
-``sklearn``
-
-``scipy``
-
-``spacy``
-
-``networkx``
+Sorry for not making an executable but these are useful libraries anyway :)
 
 However make sure to have gzip installed if you wish to use the converting script (2nd one)
 
