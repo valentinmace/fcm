@@ -56,8 +56,6 @@ For this script to run you also need gzip (precisely you need gunzip, its decomp
 
 ## Usage main script
 
-Clone or download the repository
-
 Open a terminal in the ``root`` folder and execute:
 ```sh
 python fcm_global.py <train data> <test_data> <epochs> <learning rate> [word embeddings]
@@ -78,7 +76,6 @@ Notes:
 
 To convert a corpus in Semeval 2010 format to a format usable by FCM (see ``data/corpus/raw_to_formated_script.py`` comments for more details)
 
-Clone or download the repository (if not already done)
 Open a terminal in the ``data/corpus/raw_to_formated_script`` folder and execute:
 ```sh
 python raw_to_formated.py <file to convert>
